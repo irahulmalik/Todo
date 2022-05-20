@@ -1,0 +1,44 @@
+.container {
+  margin: 0;
+  padding: 0;
+  display: flex;
+  flex-direction: column;
+  flex-grow: 1;
+}
+.todo {
+  margin: 2rem 0 0 0;
+  align-self: center;
+}
+
+.todo-feild {
+  height: 1.8rem;
+  line-height: 1.8rem;
+  font: inherit;
+  font-size: 15px;
+  padding: 0.5rem;
+  border-radius: 8px;
+  box-shadow: none;
+  outline: none;
+  border: 0.1px solid gray;
+}
+
+.todos-container {
+  margin: 2rem 0 1rem 0;
+  align-self: center;
+}
+
+.todos {
+  display: flex;
+  border: 1px solid brown;
+  min-width: 320px;
+  border-radius: 8px;
+  padding: 0px 10px;
+  justify-content: space-between;
+}
+
+.action-btn {
+  display: flex;
+}
+.act {
+  padding: 0 5px;
+}

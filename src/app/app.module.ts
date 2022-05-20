@@ -7,10 +7,17 @@ import { HelloComponent } from './hello.component';
 import { AppRoutingModule } from './app-router.module';
 import { HomeComponent } from './components/home/home.component';
 import { TodoComponent } from './components/todos/todo.component';
+import { HeaderComponent } from './components/header/header.component';
 
 @NgModule({
   imports: [BrowserModule, FormsModule, AppRoutingModule],
-  declarations: [AppComponent, HelloComponent, HomeComponent, TodoComponent],
+  declarations: [
+    AppComponent,
+    HeaderComponent,
+    HelloComponent,
+    HomeComponent,
+    TodoComponent,
+  ],
   bootstrap: [AppComponent],
 })
 export class AppModule {}
