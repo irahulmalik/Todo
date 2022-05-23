@@ -1,7 +1,7 @@
 .container {
   margin: 0;
   padding: 0;
-  background-color: rgb(155, 252, 248);
+  /* background-color: rgb(155, 252, 248); */
   min-height: 100vh;
   min-width: 100vw;
 }
@@ -61,8 +61,8 @@ h2 {
   align-items: center;
   padding: 0.7rem;
   border-radius: 8px;
-  color: rgb(135, 135, 214);
-  background-color: rgb(206, 243, 248);
+  color: rgb(211, 211, 233);
+  background-color: rgba(253, 187, 187, 0.8);
   box-shadow: none;
   border: 1px solid #f2ffff;
   font-size: 1rem;
@@ -71,12 +71,17 @@ h2 {
   user-select: none;
 }
 .btn:hover {
-  background-color: rgb(106, 243, 248);
+  background-color: rgb(248, 106, 236);
   transition: 0.3s;
   cursor: pointer;
 }
 .text {
   text-decoration: bold;
   font-weight: 300;
-  color: rgb(126, 23, 220);
+  color: rgb(116, 116, 116);
+}
+
+.text:hover {
+  color: #fff;
+  transition: 0.3s;
 }
